@@ -1,38 +1,70 @@
-.App {
+/* 전체 페이지 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* 섹션 스타일 */
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin: 0 0 20px;
+}
+
+/* 프로젝트 목록 스타일 */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.menu {
+  width: 100%;
+  position: fixed;
+  opacity: 1;
+  height: 50px;
+  top: -20px;
+  background-color: rgb(182, 182, 182) !important;
+}
+
+.menu li {
+  display: inline-block;
+  width: 25%;
   text-align: center;
+  line-height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body-wrap {
+  position: relative;
+  top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  font-weight: bold;
 }

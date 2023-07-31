@@ -1,0 +1,29 @@
+.header span {
+  margin-left: 18%;
+}
+.header h1 {
+  margin-left: 25%;
+}
+
+.header {
+  position: relative;
+}
+
+.header span::after {
+  margin-left: 5px;
+  content: "";
+  border: 1px solid white;
+  animation: typingEffect 1s infinite;
+}
+
+@keyframes typingEffect {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
