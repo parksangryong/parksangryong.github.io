@@ -1,5 +1,4 @@
 import "./App.css";
-import { motion } from "framer-motion";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skill from "./components/Skill";
@@ -14,9 +13,11 @@ function App() {
         <li>
           <a href="#about">about</a>
         </li>
+
         <li>
           <a href="#about-txt">education</a>
         </li>
+
         <li>
           <a href="#skill">skill</a>
         </li>
@@ -37,6 +38,8 @@ function App() {
       <div id="projects">
         <Projects />
       </div>
+
+      <div id="footer"></div>
     </div>
   );
 }

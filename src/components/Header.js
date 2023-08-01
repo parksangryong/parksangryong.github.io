@@ -21,7 +21,7 @@ function Header() {
 
         return result;
       });
-    }, 300);
+    }, 200);
 
     return () => {
       clearInterval(typingInterval);

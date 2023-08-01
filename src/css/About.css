@@ -1,14 +1,14 @@
 #about-sec {
   width: 100%;
-  height: 400px;
-  padding-top: 80px;
+  height: 500px;
+  padding-top: 60px;
 }
 
 #about-sec > h2 {
   text-align: center;
   text-decoration: underline;
   text-decoration-color: red;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 #about-sec img {
@@ -22,5 +22,50 @@
   width: 35%;
   float: right;
   margin-right: 20%;
-  font-size: 1em;
+  font-size: 0.9em;
+}
+
+.about-txt a:hover {
+  animation: ooo 1s forwards;
+}
+
+@keyframes ooo {
+  0% {
+    background: #dee7d5;
+  }
+  10% {
+    background: linear-gradient(to right, brown 10%, #dee7d5 10%);
+  }
+  20% {
+    background: linear-gradient(to right, brown 20%, #dee7d5 20%);
+  }
+  20% {
+    background: linear-gradient(to right, brown 30%, #dee7d5 30%);
+  }
+  40% {
+    background: linear-gradient(to right, brown 40%, #dee7d5 40%);
+  }
+  20% {
+    background: linear-gradient(to right, brown 50%, #dee7d5 50%);
+  }
+  60% {
+    background: linear-gradient(to right, brown 60%, #dee7d5 60%);
+  }
+  20% {
+    background: linear-gradient(to right, brown 70%, #dee7d5 70%);
+  }
+  80% {
+    background: linear-gradient(to right, brown 80%, #dee7d5 80%);
+  }
+  20% {
+    background: linear-gradient(to right, brown 90%, #dee7d5 90%);
+  }
+  100% {
+    background-color: brown;
+    color: white;
+  }
+}
+
+.und {
+  color: brown;
 }

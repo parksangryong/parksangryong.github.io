@@ -3,10 +3,17 @@
 }
 .header h1 {
   margin-left: 25%;
+  margin-right: 25%;
+  padding: 0 0 40px 0;
 }
 
 .header {
   position: relative;
+  width: 100%;
+  background-color: #388e3c;
+  color: #fff;
+
+  padding-top: 60px;
 }
 
 .header span::after {
