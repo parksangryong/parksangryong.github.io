@@ -69,3 +69,7 @@
 .und {
   color: brown;
 }
+
+.project li img {
+  width: 100%;
+}
