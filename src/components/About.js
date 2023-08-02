@@ -9,7 +9,6 @@ import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
 function About() {
   return (
     <section id="about-sec">
-      <h2>소개</h2>
       <img src={myimg} alt="내사진" />
       <div className="about-txt">
         <h2>Introduction</h2>

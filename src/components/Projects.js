@@ -1,15 +1,28 @@
 import "../css/Projects.css";
 import todolocal from "../images/Todo-local.png";
 import todoserver from "../images/Todo-server.png";
-import imgslide from "../images/ImageSlide.png";
-import movies from "../images/Movie Search.png";
-import board from "../images/Board.png";
-import catdog from "../images/animal.png";
-import monster from "../images/monster.png";
-import country from "../images/Country Game.png";
-import book1 from "../images/book.png";
-import book2 from "../images/book2.png";
-import coffee from "../images/Coffee-clone.png";
+import imgslide from "../images/imageslide.jpeg";
+import movies from "../images/movie-main.jpeg";
+import movieinfo from "../images/movie-detail.jpeg";
+import board from "../images/board-main.jpeg";
+import boardinfo from "../images/board-detail.jpeg";
+import cat from "../images/animal-cat.jpeg";
+import dog from "../images/animal-dog.jpeg";
+import country from "../images/country-home.jpeg";
+import countrysearch from "../images/country-search.jpeg";
+import countrygame from "../images/country-quiz.jpeg";
+import book1 from "../images/book-main.jpeg";
+import bookbest from "../images/book-best.jpeg";
+import bookcart from "../images/book-cart.jpeg";
+import bookmy from "../images/book-my.jpeg";
+import booklogin from "../images/book-login.jpeg";
+import monster from "../images/monster-main.jpeg";
+import poket from "../images/monster-poket.jpeg";
+import poketinfo from "../images/monster-poket-detail.jpeg";
+import digit from "../images/monster-digi.jpeg";
+import digitinfo from "../images/monster-digi-detail.jpeg";
+import monstergame from "../images/monster-game.jpeg";
+import coffee from "../images/coffee.jpeg";
 import doors from "../images/Doors.png";
 
 function Projects() {
@@ -19,7 +32,6 @@ function Projects() {
       <ul className="project">
         <li>
           <img src={book1} alt="책 장터1" />
-          <img src={book2} alt="책 장터2" />
           <a href="https://zippy-jelly-95471f.netlify.app/" target="_blank">
             Book-App
           </a>
@@ -132,7 +144,7 @@ function Projects() {
           </ul>
         </li>
         <li>
-          <img src={catdog} alt="강아지와 고양이" />
+          <img src={cat} alt="강아지와 고양이" />
           <a
             href="https://main--splendid-melba-7fa330.netlify.app/"
             target="_blank"

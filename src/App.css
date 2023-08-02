@@ -21,7 +21,7 @@ ul li {
   width: 100%;
   position: fixed;
   opacity: 1;
-  height: 50px;
+  height: 70px;
   top: -20px;
   background-color: #67c46a !important;
 }
@@ -30,7 +30,9 @@ ul li {
   display: inline-block;
   width: 25%;
   text-align: center;
-  line-height: 50px;
+  line-height: 70px;
+  font-size: 1.2em;
+  height: 55px;
 }
 
 .body-wrap {
@@ -51,4 +53,13 @@ a:link {
 
 a:hover {
   font-weight: bold;
+}
+
+.menu a {
+  color: rgb(72, 72, 72) !important;
+}
+
+.active {
+  font-weight: bold !important;
+  border-bottom: 5px solid goldenrod;
 }

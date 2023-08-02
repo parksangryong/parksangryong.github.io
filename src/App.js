@@ -1,32 +1,25 @@
 import "./App.css";
-import Header from "./components/Header";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Projects from "./components/Projects";
 import AboutTxt from "./components/AboutTxt";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div id="App">
-      <Header />
-      <ul className="menu">
-        <li>
-          <a href="#about">about</a>
-        </li>
-
-        <li>
-          <a href="#about-txt">education</a>
-        </li>
-
-        <li>
-          <a href="#skill">skill</a>
-        </li>
-        <li>
-          <a href="#projects">projects</a>
-        </li>
-      </ul>
-
-      <div id="about">
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/edu" element={<AboutTxt />} />
+          <Route path="/skill" element={<Skill />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </BrowserRouter>
+      {/* <div id="about">
         <About />
       </div>
       <div id="about-txt">
@@ -37,7 +30,7 @@ function App() {
       </div>
       <div id="projects">
         <Projects />
-      </div>
+      </div> */}
 
       <div id="footer"></div>
     </div>
