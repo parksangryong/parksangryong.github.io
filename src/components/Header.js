@@ -61,7 +61,7 @@ function Header() {
           </Link>
         </li>
       </ul>
-      {pathn === "/about" ? (
+      {pathn === "/about" || pathn === "/" ? (
         <h1>
           배움을 좋아하는 개발자,
           <br />
