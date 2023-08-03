@@ -1,18 +1,26 @@
 #txt-sec {
   width: 100%;
-  height: 500px;
   padding-top: 10px;
-  margin-top: 100px;
+}
+
+.ko {
+  width: 100%;
+  height: 100px;
+  background-color: #388e3c;
+  margin-bottom: 70px;
 }
 
 .adu {
   width: 60%;
+  height: auto;
   margin: 0 20% 50px 20%;
 }
 
-.adu p {
-  width: 90%;
-  margin: 20px 0 20px 10%;
+.adu-txt {
+  float: left;
+  width: 100%;
+  border-left: 4px solid green;
+  border-right: 4px solid green;
 }
 
 .adu h2 {
@@ -24,20 +32,92 @@
 
 .card {
   width: 60%;
-  margin: 50px 20% 50px 20%;
+  margin: 70px 20% 50px 20%;
 }
 
 .card h2 {
+  width: 100%;
+  float: left;
   text-align: center;
   text-decoration: underline;
   text-decoration-color: red;
-
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card p {
-  display: inline-block;
-  width: 25%;
-  margin: 20px 0 20px 0;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  width: 20%;
+  margin: 20px 3.8% 20px 0;
   text-align: center;
+  border: 1.5px solid green;
+  border-radius: 10px;
+  animation: ooo 0.5s forwards !important;
+}
+
+.first-p {
+  margin: 20px 3.8% 20px 3.8% !important;
+}
+
+.card p:hover {
+  font-weight: bold;
+}
+
+.adus {
+  width: 65%;
+  margin-left: 5%;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.dates {
+  color: brown;
+  float: right;
+  width: 25%;
+  font-size: 1.1em;
+  margin-right: 5%;
+
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+@keyframes ooo {
+  0% {
+    background: #e6f0dc;
+  }
+  10% {
+    background: linear-gradient(to right, mintcream 10%, #e6f0dc 10%);
+  }
+  20% {
+    background: linear-gradient(to right, mintcream 20%, #e6f0dc 20%);
+  }
+  30% {
+    background: linear-gradient(to right, mintcream 30%, #e6f0dc 30%);
+  }
+  40% {
+    background: linear-gradient(to right, mintcream 40%, #e6f0dc 40%);
+  }
+  50% {
+    background: linear-gradient(to right, mintcream 50%, #e6f0dc 50%);
+  }
+  60% {
+    background: linear-gradient(to right, mintcream 60%, #e6f0dc 60%);
+  }
+  70% {
+    background: linear-gradient(to right, mintcream 70%, #e6f0dc 70%);
+  }
+  80% {
+    background: linear-gradient(to right, mintcream 80%, #e6f0dc 80%);
+  }
+  90% {
+    background: linear-gradient(to right, mintcream 90%, #e6f0dc 90%);
+  }
+  100% {
+    background-color: mintcream;
+  }
 }

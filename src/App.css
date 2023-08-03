@@ -4,7 +4,7 @@ body {
 
   margin: 0;
   padding: 0;
-  background-color: #dee7d5;
+  background-color: #e6f0dc;
 }
 
 /* 프로젝트 목록 스타일 */
@@ -15,29 +15,6 @@ ul {
 
 ul li {
   margin-bottom: 10px;
-}
-
-.menu {
-  width: 100%;
-  position: fixed;
-  opacity: 1;
-  height: 70px;
-  top: -20px;
-  background-color: #67c46a !important;
-}
-
-.menu li {
-  display: inline-block;
-  width: 25%;
-  text-align: center;
-  line-height: 70px;
-  font-size: 1.2em;
-  height: 55px;
-}
-
-.body-wrap {
-  position: relative;
-  top: 50px;
 }
 
 a {
@@ -53,10 +30,6 @@ a:link {
 
 a:hover {
   font-weight: bold;
-}
-
-.menu a {
-  color: rgb(72, 72, 72) !important;
 }
 
 .active {
