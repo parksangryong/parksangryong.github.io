@@ -1,30 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e28b37d.css",
-    "main.js": "/static/js/main.61b3d376.js",
+    "main.css": "/static/css/main.1d6d925d.css",
+    "main.js": "/static/js/main.e2013c86.js",
     "static/media/movie-main.jpeg": "/static/media/movie-main.483fc20252c69417a8f5.jpeg",
     "static/media/Doors.png": "/static/media/Doors.2d06293694a501761a38.png",
-    "static/media/book-my.jpeg": "/static/media/book-my.318eb7c5c5e05c11abde.jpeg",
     "static/media/coffee.jpeg": "/static/media/coffee.7a7d951ec75c5124bbc5.jpeg",
-    "static/media/country-search.jpeg": "/static/media/country-search.ccae1f8a176ecdedddef.jpeg",
     "static/media/book-main.jpeg": "/static/media/book-main.f77f3f8105e2257fca91.jpeg",
-    "static/media/monster-digi.jpeg": "/static/media/monster-digi.2bf800fe249586bbcb99.jpeg",
-    "static/media/movie-detail.jpeg": "/static/media/movie-detail.89d046ab4d8cdda04fc6.jpeg",
-    "static/media/monster-poket.jpeg": "/static/media/monster-poket.b4b15a016bff22b1ba51.jpeg",
-    "static/media/book-cart.jpeg": "/static/media/book-cart.8184510c4215980250f8.jpeg",
     "static/media/animal-cat.jpeg": "/static/media/animal-cat.9cdbbc6765df542a2d5f.jpeg",
-    "static/media/animal-dog.jpeg": "/static/media/animal-dog.f267e73e9eaca5bd3511.jpeg",
-    "static/media/book-best.jpeg": "/static/media/book-best.d54774a57df02ab1827d.jpeg",
+    "static/media/노션1-.png": "/static/media/노션1-.f61d18592564a25b06d7.png",
     "static/media/monster-main.jpeg": "/static/media/monster-main.c8921e70797c812c6ce2.jpeg",
-    "static/media/monster-digi-detail.jpeg": "/static/media/monster-digi-detail.5d8628ce6c427ca79ced.jpeg",
     "static/media/jsp.jpg": "/static/media/jsp.3a1bc73e35da1b03f551.jpg",
-    "static/media/board-detail.jpeg": "/static/media/board-detail.2fc73d847492395b41a9.jpeg",
-    "static/media/monster-poket-detail.jpeg": "/static/media/monster-poket-detail.bd57c17c43260f37b6c0.jpeg",
-    "static/media/monster-game.jpeg": "/static/media/monster-game.f24c3fd4dce0f7e339cb.jpeg",
     "static/media/board-main.jpeg": "/static/media/board-main.31aa8dbad40fe3507dd3.jpeg",
     "static/media/adobe.jpg": "/static/media/adobe.9026412320a9d226d677.jpg",
     "static/media/imageslide.jpeg": "/static/media/imageslide.80c1595ff1f800697006.jpeg",
-    "static/media/country-quiz.jpeg": "/static/media/country-quiz.914163c8b9167cb63838.jpeg",
     "static/media/html.jpg": "/static/media/html.773a022e3c16fe8e32c8.jpg",
     "static/media/country-home.jpeg": "/static/media/country-home.816a3aa72eb000d10837.jpeg",
     "static/media/java.jpg": "/static/media/java.2998d07f25e7ef711591.jpg",
@@ -33,7 +21,6 @@
     "static/media/github.jpg": "/static/media/github.04755613e6b4b5af8a6d.jpg",
     "static/media/Todo-server.png": "/static/media/Todo-server.5796a647697f0d295a5c.png",
     "static/media/jquery.jpg": "/static/media/jquery.517d3e68e818059d792e.jpg",
-    "static/media/book-login.jpeg": "/static/media/book-login.1bb4b245f1e91b474520.jpeg",
     "static/media/Todo-local.png": "/static/media/Todo-local.bd2cd3922f3841fb3c3a.png",
     "static/media/my.jpg": "/static/media/my.cc23a2c1900a7b9c4b19.jpg",
     "static/media/react.gif": "/static/media/react.bbd432d07604512ea09d.gif",
@@ -41,11 +28,11 @@
     "static/media/Typescript.gif": "/static/media/Typescript.334602372cb8010cb5ce.gif",
     "static/media/mysql.jpg": "/static/media/mysql.d3d315bf1a9b655f1820.jpg",
     "index.html": "/index.html",
-    "main.3e28b37d.css.map": "/static/css/main.3e28b37d.css.map",
-    "main.61b3d376.js.map": "/static/js/main.61b3d376.js.map"
+    "main.1d6d925d.css.map": "/static/css/main.1d6d925d.css.map",
+    "main.e2013c86.js.map": "/static/js/main.e2013c86.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e28b37d.css",
-    "static/js/main.61b3d376.js"
+    "static/css/main.1d6d925d.css",
+    "static/js/main.e2013c86.js"
   ]
 }
