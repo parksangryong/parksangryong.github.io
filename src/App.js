@@ -31,8 +31,6 @@ function App() {
       <div id="projects">
         <Projects />
       </div> */}
-
-      <div id="footer"></div>
     </div>
   );
 }

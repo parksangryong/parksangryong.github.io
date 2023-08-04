@@ -24,3 +24,10 @@
   position: relative;
   top: 50px;
 }
+
+@media screen and (max-width: 437px) {
+  .menu li {
+    font-size: 0.9em;
+    width: 24%;
+  }
+}
