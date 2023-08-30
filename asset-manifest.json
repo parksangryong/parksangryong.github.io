@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.4212e68a.css",
-    "main.js": "/static/js/main.b651b217.js",
+    "main.css": "/static/css/main.bcebe131.css",
+    "main.js": "/static/js/main.e19bbd53.js",
     "static/media/movie-main.jpeg": "/static/media/movie-main.483fc20252c69417a8f5.jpeg",
     "static/media/Doors.png": "/static/media/Doors.2d06293694a501761a38.png",
     "static/media/coffee.jpeg": "/static/media/coffee.7a7d951ec75c5124bbc5.jpeg",
     "static/media/book-main.jpeg": "/static/media/book-main.f77f3f8105e2257fca91.jpeg",
     "static/media/animal-cat.jpeg": "/static/media/animal-cat.9cdbbc6765df542a2d5f.jpeg",
-    "static/media/노션1-.png": "/static/media/노션1-.f61d18592564a25b06d7.png",
     "static/media/monster-main.jpeg": "/static/media/monster-main.c8921e70797c812c6ce2.jpeg",
     "static/media/jsp.jpg": "/static/media/jsp.3a1bc73e35da1b03f551.jpg",
     "static/media/board-main.jpeg": "/static/media/board-main.31aa8dbad40fe3507dd3.jpeg",
@@ -28,11 +27,11 @@
     "static/media/Typescript.gif": "/static/media/Typescript.334602372cb8010cb5ce.gif",
     "static/media/mysql.jpg": "/static/media/mysql.d3d315bf1a9b655f1820.jpg",
     "index.html": "/index.html",
-    "main.4212e68a.css.map": "/static/css/main.4212e68a.css.map",
-    "main.b651b217.js.map": "/static/js/main.b651b217.js.map"
+    "main.bcebe131.css.map": "/static/css/main.bcebe131.css.map",
+    "main.e19bbd53.js.map": "/static/js/main.e19bbd53.js.map"
   },
   "entrypoints": [
-    "static/css/main.4212e68a.css",
-    "static/js/main.b651b217.js"
+    "static/css/main.bcebe131.css",
+    "static/js/main.e19bbd53.js"
   ]
 }
