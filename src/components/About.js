@@ -1,5 +1,6 @@
 import "../css/About.css";
-import myimg from "../images/my.jpg";
+import myimg1 from "../images/my.jpg";
+import myimg2 from "../images/my2.jpg";
 import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,6 +12,7 @@ import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
 function About() {
   const [blogTitle, setBlogTitle] = useState("");
   const [count, setCount] = useState(0);
+  const [imgnum, setImgnum] = useState(true);
   const completionWord = "안녕하세요, 상룡의 포토폴리오 입니다.      ";
 
   useEffect(() => {
@@ -35,6 +37,10 @@ function About() {
     };
   });
 
+  const changeImg = () => {
+    setImgnum(!imgnum);
+  };
+
   return (
     <section id="about-sec">
       <div className="hello">
@@ -45,7 +51,12 @@ function About() {
         </h1>
       </div>
 
-      <img src={myimg} alt="내사진" />
+      {imgnum ? (
+        <img src={myimg1} alt="내사진" onClick={changeImg} />
+      ) : (
+        <img src={myimg2} alt="내사진" onClick={changeImg} />
+      )}
+
       <div className="about-txt">
         <h2>Introduction &nbsp;</h2>
         <p>

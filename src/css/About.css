@@ -11,6 +11,10 @@
   height: 380px;
   margin-top: 15px;
   box-shadow: 20px 20px green;
+  cursor: pointer;
+}
+#about-sec img:hover {
+  opacity: 0.9;
 }
 
 .about-txt {
