@@ -22,11 +22,11 @@ function Header() {
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link to="/edu" className={pathname === "/edu" ? "active" : ""}>
             Education
           </Link>
-        </li>
+        </li> */}
 
         <li>
           <Link to="/skill" className={pathname === "/skill" ? "active" : ""}>

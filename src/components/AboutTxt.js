@@ -5,7 +5,7 @@ import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 function AboutTxt() {
   return (
     <section id="txt-sec">
-      <div className="ko"></div>
+      {/* <div className="ko"></div> */}
       <div className="adu">
         <h2>학력 / 교육이수</h2>
         <div className="adu-txt">

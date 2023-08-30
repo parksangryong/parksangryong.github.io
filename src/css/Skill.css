@@ -1,7 +1,7 @@
 #skill-sec {
-  width: 70%;
-  height: 500px;
-  margin: 10px 15% 0 15%;
+  width: 80%;
+  height: auto;
+  margin: 10px 10% 100px 10%;
 }
 .koo {
   width: 100%;
@@ -11,14 +11,14 @@
 }
 
 #skill-sec h2,
-#skill-sec h4 {
+#skill-sec h3 {
   text-align: center;
   text-decoration: underline;
   text-decoration-color: red;
   margin-bottom: 10px;
 }
 
-#skill-sec h4 {
+#skill-sec h3 {
   margin-top: 80px !important;
   margin-bottom: 10px !important;
 }
@@ -107,7 +107,7 @@
 #skill-sec p {
   width: 80%;
   margin-left: 10%;
-  font-size: 0.92em;
+  font-size: 1.3em;
   text-align: center;
 }
 
@@ -145,7 +145,7 @@
 
   #skill-sec {
     width: 90%;
-    margin: 0 5% 0 5%;
+    margin: 0 5% 100px 5% !important;
   }
 
   .skill-img:nth-child(1),
@@ -207,5 +207,9 @@
 
   .skill-img:nth-child(3n) {
     top: 40px !important;
+  }
+
+  #skill-sec p {
+    font-size: 0.95em !important;
   }
 }

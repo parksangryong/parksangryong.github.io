@@ -1,5 +1,6 @@
 import "../css/About.css";
 import myimg from "../images/my.jpg";
+import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChalkboard } from "@fortawesome/free-solid-svg-icons";
@@ -79,6 +80,53 @@ function About() {
             https://github.com/parksangryong?tab=repositories
           </a>
         </p>
+      </div>
+
+      <div className="about-adu">
+        <div className="adu">
+          <h2>Education</h2>
+          <div className="adu-txt">
+            <p>
+              <span className="adus">
+                <FontAwesomeIcon icon={faUserGraduate} /> &nbsp; 대구대학교
+                정보통신공학과(ICT융합부) / 재활공학과
+              </span>
+
+              <span className="dates">2015.03.02 ~ 2022.02.18</span>
+            </p>
+            <p>
+              <span className="adus">
+                <FontAwesomeIcon icon={faUserGraduate} /> &nbsp; 임베디드시스템
+                융합 프레임워크 기반 자바 웹 개발자 양성과정
+              </span>
+
+              <span className="dates">2022.08.02 ~ 2022.12.07</span>
+            </p>
+            <p>
+              <span className="adus">
+                <FontAwesomeIcon icon={faUserGraduate} /> &nbsp; 코리아IT
+                아카데미 프론트엔드 개발자 양성과정
+              </span>
+
+              <span className="dates">2023.04.22 ~ 2023.07.16</span>
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <h2>Have Certificate</h2>
+
+          <div className="card-txt">
+            <span className="first-p">정보통신기사</span>
+            <span>정보처리기사</span>
+            <span>사무자동화 산업기사</span>
+            <span>보조공학사</span>
+            <span className="first-p">GTQ-P</span>
+            <span>GTQ-I</span>
+            <span>컴퓨터활용능력 1급</span>
+            <span>워드프로세스</span>
+          </div>
+        </div>
       </div>
     </section>
   );

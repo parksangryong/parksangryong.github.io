@@ -137,7 +137,7 @@ function Skill() {
         <h2>Skills</h2>
         {result}
 
-        <h4>그 외 기술스택</h4>
+        <h3>Other Skills</h3>
         <p>
           React-hooks, Styled componen, Express, MongoDB, netlify, Cloudtype,
           REST API, Axios, AJAX, MVC, Redux...

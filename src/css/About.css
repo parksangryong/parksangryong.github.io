@@ -1,28 +1,60 @@
 #about-sec {
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 #about-sec img {
   margin-top: 10px;
-  width: 20%;
+  width: 25%;
   float: left;
-  margin-left: 20%;
+  margin-left: 15%;
   height: 380px;
   margin-top: 15px;
   box-shadow: 20px 20px green;
 }
 
 .about-txt {
-  width: 35%;
+  width: 40%;
   float: right;
-  margin-right: 20%;
+  margin-right: 15%;
   font-size: 1.1em;
 }
 
-.about-txt h2 {
+.about-adu {
+  width: 70%;
+  float: left;
+  margin: 30px 15% 0 15%;
+  margin-bottom: 100px;
+}
+
+.adu-txt,
+.card-txt {
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+
+.adu {
+  margin-bottom: 50px;
+}
+
+.adu-txt p {
+  line-height: 30px;
+  height: 30px;
+}
+.adus {
+  float: left;
+  font-size: 0.9em;
+}
+.dates {
+  float: right;
+}
+
+.about-txt h2,
+.adu h2,
+.card h2 {
   position: relative;
   background-color: #e6f0dc;
+  text-align: left;
   width: 100%;
   border-bottom: 3px solid black;
 }
@@ -42,6 +74,10 @@
   padding: 0 0 40px 0;
 }
 
+.dates {
+  font-size: 1.1em;
+}
+
 .hello {
   position: relative;
   z-index: 0;
@@ -57,6 +93,64 @@
   content: "";
   border: 1px solid white;
   animation: typingEffect 1s infinite;
+}
+
+.card span {
+  height: 30px;
+  line-height: 30px;
+  width: 45%;
+  border: 1.5px solid green;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: 3px 3px green;
+}
+.card span:nth-child(2n-1) {
+  float: left;
+}
+.card span:nth-child(2n) {
+  float: right;
+}
+
+.card span:hover {
+  font-weight: bold;
+
+  animation: ooo 0.3s forwards !important;
+}
+
+@keyframes ooo {
+  0% {
+    background: #e6f0dc;
+  }
+  10% {
+    background: linear-gradient(to right, mintcream 10%, #e6f0dc 10%);
+  }
+  20% {
+    background: linear-gradient(to right, mintcream 20%, #e6f0dc 20%);
+  }
+  30% {
+    background: linear-gradient(to right, mintcream 30%, #e6f0dc 30%);
+  }
+  40% {
+    background: linear-gradient(to right, mintcream 40%, #e6f0dc 40%);
+  }
+  50% {
+    background: linear-gradient(to right, mintcream 50%, #e6f0dc 50%);
+  }
+  60% {
+    background: linear-gradient(to right, mintcream 60%, #e6f0dc 60%);
+  }
+  70% {
+    background: linear-gradient(to right, mintcream 70%, #e6f0dc 70%);
+  }
+  80% {
+    background: linear-gradient(to right, mintcream 80%, #e6f0dc 80%);
+  }
+  90% {
+    background: linear-gradient(to right, mintcream 90%, #e6f0dc 90%);
+  }
+  100% {
+    background-color: mintcream;
+  }
 }
 
 @keyframes typingEffect {
@@ -86,9 +180,25 @@
   .about-txt {
     font-size: 1em;
   }
+  .adus {
+    width: 100%;
+    float: left;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+  .dates {
+    width: 100%;
+    float: right;
+    text-align: right;
+    line-height: 25px;
+  }
+  .adu-txt p {
+    border-bottom: 2px dotted green;
+    height: 50px;
+  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .hello {
     font-size: 1.1em;
   }
@@ -99,8 +209,21 @@
   .hello span {
     margin-left: 0;
   }
+  #about-sec img {
+    width: 30%;
+    margin-left: 10%;
+  }
+
   .about-txt {
+    width: 45%;
+    margin-right: 10%;
     font-size: 0.9em;
+  }
+
+  .about-adu {
+    width: 80%;
+    margin: 30px 10% 0 10%;
+    margin-bottom: 100px;
   }
 }
 
@@ -115,14 +238,46 @@
     text-align: center;
   }
   .about-txt {
-    font-size: 0.9em;
-    width: 60%;
-    margin: 30px 20% 0 20%;
+    width: 80%;
+    margin-top: 40px;
   }
 
   #about-sec img {
-    width: 60%;
-    float: left;
+    width: 80%;
+    box-shadow: 10px 10px green;
+  }
+
+  .about-adu {
+    margin-top: 15px;
+  }
+
+  .adus {
+    font-size: 0.7em;
+  }
+  .dates {
+    font-size: 0.85em;
+  }
+  .card-txt span {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .adu-txt p:nth-child(2) {
+    height: 75px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 389px) {
+  .adu-txt p:nth-child(1) {
+    height: 75px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 352px) {
+  .adu-txt p:nth-child(3) {
+    height: 75px;
+    line-height: 20px;
   }
 }
 
@@ -146,5 +301,9 @@
     width: 80%;
     margin: 30px 10% 30px 10%;
     float: left;
+  }
+  .card-txt span {
+    width: 100%;
+    font-size: 0.8em;
   }
 }

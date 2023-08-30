@@ -13,7 +13,7 @@
 
 .menu li {
   display: inline-block;
-  width: 25%;
+  width: 33.3%;
   text-align: center;
   line-height: 70px;
   font-size: 1.2em;
@@ -28,6 +28,6 @@
 @media screen and (max-width: 437px) {
   .menu li {
     font-size: 0.9em;
-    width: 24%;
+    width: 33%;
   }
 }

@@ -11,7 +11,7 @@ import monster from "../images/monster-main.jpeg";
 import coffee from "../images/coffee.jpeg";
 import doors from "../images/Doors.png";
 
-import notion1 from "../images/노션1-.png";
+// import notion1 from "../images/노션1-.png";
 
 import Project from "./Project";
 
@@ -128,16 +128,16 @@ function Projects() {
       home: "https://hilarious-treacle-c41cbe.netlify.app/",
       github: "https://github.com/parksangryong/doors",
     },
-    {
-      id: 12,
-      imageUrl: notion1,
-      title: "Movie(풀스택 과정 팀 프로젝트)",
-      dates: "2022/12월 쯤",
-      skills: "Java/Jsp/Spring/Oracle/Bootstrap/Notion",
-      desc: "영화 사이트 였으나, 결과물 및 기록이 사라져, 노션에 남은 기록지 스크린샷...",
-      home: "#",
-      github: "#",
-    },
+    // {
+    //   id: 12,
+    //   imageUrl: notion1,
+    //   title: "Movie(풀스택 과정 팀 프로젝트)",
+    //   dates: "2022/12월 쯤",
+    //   skills: "Java/Jsp/Spring/Oracle/Bootstrap/Notion",
+    //   desc: "영화 사이트 였으나, 결과물 및 기록이 사라져, 노션에 남은 기록지 스크린샷...",
+    //   home: "#",
+    //   github: "#",
+    // },
   ];
 
   const results = initialImages.map((image) => (
@@ -158,7 +158,7 @@ function Projects() {
     <section id="pro-sec">
       <div className="ko"></div>
       <div className="proh">
-        <h2>&nbsp;&nbsp;&nbsp;&nbsp;프로젝트&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Projects&nbsp;&nbsp;&nbsp;&nbsp;</h2>
       </div>
 
       <ul className="project">{results}</ul>
