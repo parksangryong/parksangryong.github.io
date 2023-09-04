@@ -13,7 +13,7 @@ function About() {
   const [blogTitle, setBlogTitle] = useState("");
   const [count, setCount] = useState(0);
   const [imgnum, setImgnum] = useState(true);
-  const completionWord = "안녕하세요, 상룡의 포토폴리오 입니다.      ";
+  const completionWord = "개발자 상룡입니다.      ";
 
   useEffect(() => {
     const typingInterval = setInterval(() => {
@@ -30,7 +30,7 @@ function About() {
 
         return result;
       });
-    }, 200);
+    }, 300);
 
     return () => {
       clearInterval(typingInterval);
@@ -45,8 +45,7 @@ function About() {
     <section id="about-sec">
       <div className="hello">
         <h1>
-          배움을 즐기는 개발자!
-          <br />
+          천재가 되기위해 노력에 중독된, &nbsp;
           <span>{blogTitle}</span>
         </h1>
       </div>

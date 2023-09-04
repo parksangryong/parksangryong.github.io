@@ -19,7 +19,7 @@
   position: absolute;
   top: 135px;
   background-color: #e6f0dc;
-  left: 42%;
+  left: 44%;
   font-size: 1.8em;
   color: green;
 }
@@ -30,7 +30,8 @@
 }
 
 .project > li {
-  border: 5px solid green;
+  border: 3px solid green;
+  box-shadow: 6px 6px green;
   background-color: rgb(51, 119, 88);
   overflow-y: hidden;
   display: inline-block;
@@ -40,6 +41,7 @@
   border-radius: 20px;
   opacity: 0;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .project > li:nth-child(1) {
@@ -49,16 +51,16 @@
   animation: cooo 2s forwards;
 }
 .project > li:nth-child(3) {
-  animation: cooo 3s forwards;
+  animation: cooo 2.5s forwards;
 }
 .project > li:nth-child(4) {
-  animation: cooo 3s forwards;
+  animation: cooo 2.5s forwards;
 }
 .project > li:nth-child(5) {
-  animation: cooo 4s forwards;
+  animation: cooo 3s forwards;
 }
 .project > li:nth-child(6) {
-  animation: cooo 4.5s forwards;
+  animation: cooo 3.5s forwards;
 }
 .project > li:nth-child(7),
 .project > li:nth-child(8),
@@ -171,6 +173,9 @@ a:hover {
     font-size: 0.9em !important;
     line-height: 18px;
   }
+  #pro-sec h2 {
+    left: 40%;
+  }
 }
 
 @media screen and (max-width: 803px) {
@@ -211,9 +216,11 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .project > li {
-    width: 100%;
+    width: 98%;
     margin: 0;
     margin-bottom: 15px;
+    border: 2px solid green;
+    box-shadow: 4px 4px green;
   }
 
   .proh h2 {
