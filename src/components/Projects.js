@@ -10,6 +10,7 @@ import book1 from "../images/book-main.jpeg";
 import monster from "../images/monster-main.jpeg";
 import coffee from "../images/coffee.jpeg";
 import doors from "../images/Doors.png";
+import weather from "../images/ww.png";
 
 // import notion1 from "../images/노션1-.png";
 
@@ -29,6 +30,16 @@ function Projects() {
     },
     {
       id: 2,
+      imageUrl: weather,
+      title: "What's Weather?",
+      dates: "2023/9월 중순",
+      skills: "React, TypeScript, OpenAPI",
+      desc: "날씨를 openAPI를 통해 불러와서 현재 지역 값을 받아 현재 날씨 정보 및 5일간의 정보, 지도 상 표시까지 나타낸다.",
+      home: "https://spiffy-gaufre-0bf1e5.netlify.app/",
+      github: "https://github.com/parksangryong/weather-app",
+    },
+    {
+      id: 3,
       imageUrl: movies,
       title: "영화검색 사이트(MovieSearch)",
       dates: "2023/06월 말 쯤",
@@ -38,7 +49,7 @@ function Projects() {
       github: "https://github.com/parksangryong/MovieSearch",
     },
     {
-      id: 3,
+      id: 4,
       imageUrl: board,
       title: "질문/답변 게시판(City of Posts)",
       dates: "2023/07월 초 쯤",
@@ -48,7 +59,7 @@ function Projects() {
       github: "https://github.com/parksangryong/board-app",
     },
     {
-      id: 4,
+      id: 5,
       imageUrl: country,
       title: "국기 맞추기 게임 (Country of Earth)",
       dates: "2023/07월 중순 쯤",
@@ -58,7 +69,7 @@ function Projects() {
       github: "https://github.com/parksangryong/country-app",
     },
     {
-      id: 5,
+      id: 6,
       imageUrl: monster,
       title: "포켓몬 디지몬 도감(Monsters)",
       dates: "2023/07월 초중순 쯤",
@@ -68,7 +79,7 @@ function Projects() {
       github: "https://github.com/parksangryong/monster-app",
     },
     {
-      id: 6,
+      id: 7,
       imageUrl: cat,
       title: "강아지와 고양이 랜덤 사진(Dog & Cat)",
       dates: "2023/06월 중순쯤",
@@ -79,7 +90,7 @@ function Projects() {
     },
 
     {
-      id: 7,
+      id: 8,
       imageUrl: todolocal,
       title: "투두리스트 - 로컬스토리지버전",
       dates: "2023/06월 초 쯤",
@@ -89,7 +100,7 @@ function Projects() {
       github: "https://github.com/parksangryong/todolist-local ",
     },
     {
-      id: 8,
+      id: 9,
       imageUrl: todoserver,
       title: "투두리스트 - DB 연결 버전",
       dates: "2023/06월 말 쯤",
@@ -99,7 +110,7 @@ function Projects() {
       github: "https://github.com/parksangryong/todolist-server",
     },
     {
-      id: 9,
+      id: 10,
       imageUrl: imgslide,
       title: "간단 이미지슬라이드",
       dates: "2023/06",
@@ -109,7 +120,7 @@ function Projects() {
       github: "https://github.com/parksangryong/image-gallery",
     },
     {
-      id: 10,
+      id: 11,
       imageUrl: coffee,
       title: "Coffee RandingPage",
       dates: "2023/04월 쯤",
@@ -119,7 +130,7 @@ function Projects() {
       github: "https://github.com/parksangryong/heropy_coffee",
     },
     {
-      id: 11,
+      id: 12,
       imageUrl: doors,
       title: "HTML + CSS",
       dates: "2023/03월 쯤",
@@ -129,7 +140,7 @@ function Projects() {
       github: "https://github.com/parksangryong/doors",
     },
     // {
-    //   id: 12,
+    //   id: 999,
     //   imageUrl: notion1,
     //   title: "Movie(풀스택 과정 팀 프로젝트)",
     //   dates: "2022/12월 쯤",

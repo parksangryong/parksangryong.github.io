@@ -131,10 +131,12 @@ function About() {
             <span>정보처리기사</span>
             <span>사무자동화 산업기사</span>
             <span>보조공학사</span>
-            <span className="first-p">GTQ-P</span>
-            <span>GTQ-I</span>
+            <span className="first-p">웹디자인기능사</span>
+            <span>컴퓨터그래픽스운용기능사</span>
             <span>컴퓨터활용능력 1급</span>
             <span>워드프로세스</span>
+            <span className="first-p">GTQ-P</span>
+            <span>GTQ-I</span>
           </div>
         </div>
       </div>
